@@ -1,31 +1,35 @@
+.hover {
+  padding: 15px;
+  background: green;
+  color: white;
+}
+.hover:hover {
+  background: darkgreen;
+  transform: scale(1.1);
+}
+
+
 .options {
-  display: none;        
-  background: grey;     
-  padding: 4px;         
+  display: none;
+  background: grey;
+  padding: 4px;
 }
 
 .dropdown:hover .options {
-  display: block;      
+  display: block;
 }
 
 .options a {
-  display: block;       
-  padding: 5px;        
+  display: block;
+  padding: 5px;
   text-decoration: none;
   color: black;
 }
 
-
-Step 3: Zoom image:
-
-Html :
-
-<img src="img1-png" class="zoomimage">
-
 .zoomimage {
-  transition: 0.5s;       
+  transition: 0.5s;
 }
 
 .zoomimage:hover {
-  transform: scale(1.2);   
+  transform: scale(1.2);
 }
